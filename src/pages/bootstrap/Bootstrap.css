@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .py-5{
+    background-color: black;
+    background-image: url(./images/uhsuashu.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+  }
+
+
+  
+  .container1 {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 20px 54px 55px, rgba(0, 0, 0, 0.12) 20px -12px 30px, rgba(0, 0, 0, 0.12) 20px 4px 6px, rgba(0, 0, 0, 0.17) 20px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 500px;
+    border-radius: 15px;
+    height: 90vh;
+    color: black;
+  }
+
+  .topLogo {
+    width: 380px;
+    height: 100px;
+    
+  }
+
+  #paragraph {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .btnSucess {
+    color: #86e6f3;
+    border: 1px solid #86e6f3;
+  } 
+
+  .fotter {
+    color: #86e6f3;
+    margin-top: 30px;
+    margin-bottom: 10px;
+   
+  }
