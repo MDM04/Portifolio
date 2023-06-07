@@ -152,7 +152,7 @@ const Bootstrap = () => {
           value="option2"
         />
         <label className="form-check-label" for="inlineCheckbox2">
-          Sabe trabalhar em equipe
+          Trabalhar em equipe
         </label>
       </div>
       <div className="form-check form-check-inline">

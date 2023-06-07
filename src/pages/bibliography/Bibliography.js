@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Bibliography.css"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>Bibliography</div>
   )
 }
 

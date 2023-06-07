@@ -1,17 +1,17 @@
 import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Introduction from "./pages/Introduction";
+import Introduction from "./pages/introduction/Introduction";
 import Bootstrap from "./pages/bootstrap/Bootstrap";
-import Sass from "./pages/Sass";
-import Css from "./pages/Css";
-import JavaScript from "./pages/JavaScript";
-import Database from "./pages/Database";
-import Home from "./pages/Home";
+import Sass from "./pages/sass/Sass";
+import Css from "./pages/css/Css";
+import JavaScript from "./pages/javascript/JavaScript";
+import Database from "./pages/database/Database";
+import Bibliography from "./pages/bibliography/Bibliography";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-      <Route path="/*" element={<Home/>}/>
+      <Route path="/*" element={<Bibliography/>}/>
         <Route path="/introduction" element={<Introduction/>}/>
         <Route path="/bootstrap" element={<Bootstrap/>}/>
         <Route path="/sass" element={<Sass/>}/>
