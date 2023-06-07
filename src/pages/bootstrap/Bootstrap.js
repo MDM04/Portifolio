@@ -1,6 +1,6 @@
 import React from "react";
 import "./Bootstrap.css";
-import lua from "./images/logo2";
+import lua from "./images/tek.jpg";
 
 const Bootstrap = () => {
   return (
@@ -8,12 +8,12 @@ const Bootstrap = () => {
     <div className="container px-4 container1">
       <div className="text-center">
         <img
-          className="img-fluid mt-4 mb-3 topLogo"
+          className="img-fluid mt-2 mb-4 topLogo"
           src={lua}
           alt="Tecnologia"
         ></img>
       </div>
-      <p className="paragraph">1 - Qual o seu nome?</p>
+      <p className="paragraph">1 - Qual é o seu nome?</p>
 
       <div className="input-group mb-3">
         <span className="input-group-text" id="basic-addon1">
@@ -40,7 +40,7 @@ const Bootstrap = () => {
           aria-describedby="basic-addon1"
         />
       </div>
-      <p className="mt-3 paragraph">2 - Qual o seu gênero?</p>
+      <p className="mt-3 paragraph">2 - Qual é o seu gênero?</p>
       <div class="form-check">
         <input
           className="form-check-input"
@@ -203,7 +203,7 @@ const Bootstrap = () => {
       <div className="text-center">
         <button
           type="button"
-          className="btn btn-outline-success mb-3 btnSucess"
+          className="btn btn-outline-primary mb-3 btnSucess"
         >
           Enviar
         </button>
