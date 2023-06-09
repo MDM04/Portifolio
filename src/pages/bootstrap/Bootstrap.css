@@ -16,7 +16,7 @@
   
   .container1 {
     background-color: black;
-    box-shadow: 1px 1px 1px 3px   rgb(144, 181, 250);
+    box-shadow: 1px 1px 1px 3px   rgb(213, 215, 243);
     width: 500px;
     border-radius: 15px;
     height: 90vh;
@@ -44,6 +44,5 @@
   .fotter {
     color: white;
     margin-top: 30px;
-    margin-bottom: 10px;
-   
+    margin-bottom: -30px;
   }

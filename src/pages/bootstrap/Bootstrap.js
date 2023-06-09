@@ -1,6 +1,6 @@
 import React from "react";
 import "./Bootstrap.css";
-import lua from "./images/tek.jpg";
+import tek from "./images/tek.jpg";
 
 const Bootstrap = () => {
   return (
@@ -9,7 +9,7 @@ const Bootstrap = () => {
       <div className="text-center">
         <img
           className="img-fluid mt-2 mb-4 topLogo"
-          src={lua}
+          src={tek}
           alt="Tecnologia"
         ></img>
       </div>
@@ -208,7 +208,7 @@ const Bootstrap = () => {
           Enviar
         </button>
       </div>
-      <div className="container text-center fotter">
+      <div className=" text-center fotter">
         <p> MDM &copy; </p>
       </div>
     </div>
