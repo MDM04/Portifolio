@@ -4,11 +4,10 @@
   }
 
   .py-5{
-    background-color: black;
     background-image: url(./images/img2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:right; 
     color: white;
   }
 
