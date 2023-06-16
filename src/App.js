@@ -3,7 +3,6 @@ import Introduction from "./pages/introduction/Introduction";
 import Bootstrap from "./pages/bootstrap/Bootstrap";
 import Sass from "./pages/sass/Sass";
 import Css from "./pages/css/Css";
-import JavaScript from "./pages/javascript/JavaScript";
 import Database from "./pages/database/Database";
 import Bibliography from "./pages/bibliography/Bibliography";
 
@@ -16,7 +15,6 @@ const App = () => {
         <Route path="/bootstrap" element={<Bootstrap/>}/>
         <Route path="/sass" element={<Sass/>}/>
         <Route path="/css" element={<Css/>}/>
-        <Route path="/javaScript" element={<JavaScript/>}/>
         <Route path="/database" element={<Database/>}/>
       </Routes>
     </Router>
