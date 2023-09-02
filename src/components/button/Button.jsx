@@ -2,14 +2,14 @@
 import '../button/button.css'
 
 
-const Button = ({ name }) => {
+const Button = ({ name, onClick }) => {
 
 
     // const {name} = props
 
 
     return (
-        <button className="button">
+        <button onClick={onClick} className="button">
             {name}                    {/* // toda vez que colocar js dentro de html colocar ENTRE {} */}
         </button>
     )

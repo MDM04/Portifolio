@@ -1,3 +1,6 @@
+import '../title/Title.css'
+
+
 const Title = ()=>{
     return(
 

@@ -1,45 +1,90 @@
+import SubTitle from "../subTitle/SubTitle"
+import "../text/Text.css"
+import "../conhecimentos/Conhecimentos.css"
+
 const Conhecimentos = () => {
 
 
 
     return (
         <>
-            <p>Conhecimentos</p>
+            <p id="Conhecimentos">Conhecimentos</p>
+            <br/>
             <ul>
-                <li className="subTitle">Java Script</li>
+            <SubTitle name="Java Script"/>
                 <br />
-                <p className="text">
+                <div className="container-Conhecimentos">
+                <p >
                     É uma linguagem de programação, usada na criação de paginas web. Tem como finalidade,
                     adicionar funcionalidades dinâmicas e inkteratividade na pagina, sendo possível criar validações de formulários,
                     atualizações de conteúdos, recarregar paginas, animações, etc..
                 </p>
+                </div>
                 <br />
-                <li className="subTitle">React</li>
+                <SubTitle name="React"/>
                 <br />
-                <p className="text">
+                <div className="container-Conhecimentos">
+                <p >
                     React é um framework Java Script que veio ao mercado no intuito de facilita a criação de componentes visuais, e atualizações eficientes,
                     tendo como resultado uma interface mais rapidas e responsivas.
                 </p>
+                </div>
                 <br />
-                <li className="subTitle">Node.js</li>
+                <SubTitle name="Node.js"/>
                 <br />
-                <p className="text">
+                <div className="container-Conhecimentos">
+                <p >
                     é considerado um ambiente para a execução de Java script que por sua vez, permite rodar o código.
                     Ele é usado para a criação de aplicações de servidor, tanto para sites como para serviços web. E, tem por finalidade,
                     a facilidade na hora de contruir aplicações de alto desempenho e escaláveis, permitindo tanto os desenvolvedores quanto os clientes,
                     usarem a mesma linguagem.
                 </p>
+                </div>
                 <br />
-                <li className="subTitle">Css</li>
+                <SubTitle name="Css"/>
                 <br />
-                <p className="text">
-                    É utilizado na estilização de páginas web, tanto na parte de fontes, layout, quanto na parte de controle de cores. É muito comum voce ver ele
-                    sendo usado em conjunto com o Html para criar uma estrutura visual atraente e consistente.
+                <div className="container-Conhecimentos">
+                <p >
+                    é considerado um ambiente para a execução de Java script que por sua vez, permite rodar o código.
+                    Ele é usado para a criação de aplicações de servidor, tanto para sites como para serviços web. E, tem por finalidade,
+                    a facilidade na hora de contruir aplicações de alto desempenho e escaláveis, permitindo tanto os desenvolvedores quanto os clientes,
+                    usarem a mesma linguagem.
                 </p>
+                </div>
                 <br />
-                <li className="subTitle">Html</li>
-                <li className="subTitle">NoSQL</li>
-                <li className="subTitle">Git GitHub</li>
+                <SubTitle name="Html"/>
+                <br />
+                <div className="container-Conhecimentos">
+                <p >
+                    é considerado um ambiente para a execução de Java script que por sua vez, permite rodar o código.
+                    Ele é usado para a criação de aplicações de servidor, tanto para sites como para serviços web. E, tem por finalidade,
+                    a facilidade na hora de contruir aplicações de alto desempenho e escaláveis, permitindo tanto os desenvolvedores quanto os clientes,
+                    usarem a mesma linguagem.
+                </p>
+                </div>
+                <br />
+                <SubTitle name="NoSQL"/>
+                <br />
+                <div className="container-Conhecimentos">
+                <p >
+                    é considerado um ambiente para a execução de Java script que por sua vez, permite rodar o código.
+                    Ele é usado para a criação de aplicações de servidor, tanto para sites como para serviços web. E, tem por finalidade,
+                    a facilidade na hora de contruir aplicações de alto desempenho e escaláveis, permitindo tanto os desenvolvedores quanto os clientes,
+                    usarem a mesma linguagem.
+                </p>
+                </div>
+                <br />
+                <SubTitle name="GitHub"/>
+                <br />
+                <div className="container-Conhecimentos">
+                <p >
+                    é considerado um ambiente para a execução de Java script que por sua vez, permite rodar o código.
+                    Ele é usado para a criação de aplicações de servidor, tanto para sites como para serviços web. E, tem por finalidade,
+                    a facilidade na hora de contruir aplicações de alto desempenho e escaláveis, permitindo tanto os desenvolvedores quanto os clientes,
+                    usarem a mesma linguagem.
+                </p>
+                </div>
+                <br />
             </ul>
         </>
     )

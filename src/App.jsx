@@ -12,8 +12,8 @@ const App = () => {
 
       <div className="App">
         <NavBar />
-        <img  style= {{borderRadius:'100%', width:'300px'}}src={Avatar}/>
         <Title/>
+        <img  style= {{borderRadius:'100%', width:'300px'}}src={Avatar}/>
         <ul>
           <Bibliografia />
           <Conhecimentos />
