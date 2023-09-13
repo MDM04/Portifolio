@@ -1,4 +1,4 @@
-import Bibliografia from "./components/bibliografia/Bibliografia"
+import Bibliografia from "./components/biografia/Biografia"
 import Conhecimentos from "./components/conhecimentos/Conhecimetos"
 import Contatos from "./components/contatos/Contatos"
 import NavBar from "./components/navbar/NavBar"
@@ -13,7 +13,7 @@ const App = () => {
       <div className="App">
         <NavBar />
         <Title/>
-        <img  style= {{borderRadius:'100%', width:'300px'}}src={Avatar}/>
+        <img  style= {{borderRadius:'10%', width:'800px', height:'700px'}}src={Avatar}/>
         <ul>
           <Bibliografia />
           <Conhecimentos />
