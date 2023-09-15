@@ -5,6 +5,9 @@
   text-align: center;
 }
 
+#textoInicial{
+  margin-right: 50%;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

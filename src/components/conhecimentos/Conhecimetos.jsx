@@ -1,6 +1,6 @@
 import SubTitle from "../subTitle/SubTitle"
 import "../text/Text.css"
-import "../conhecimentos/Conhecimentos.css"
+import "../conhecimentos/conhecimentos.css"
 
 const Conhecimentos = () => {
 
