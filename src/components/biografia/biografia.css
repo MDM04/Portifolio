@@ -1,6 +1,5 @@
-.avatar{
-    margin-left: 50%;
-    border-radius: 10%;
-    width: 600px;
-    height: 650px;
+.biografia-paragraph {
+
+    text-wrap: wrap;
+
 }

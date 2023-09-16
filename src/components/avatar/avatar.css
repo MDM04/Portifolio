@@ -1,0 +1,26 @@
+.containerAvatar {
+    display: flex;
+    max-width: 1220px;
+    width: 1000px;
+    justify-content: center;
+
+}
+
+.item-avatar-text {
+    width: 50%;
+}
+
+.item-avatar-img {
+    width: 50%;
+}
+
+
+.item-avatar-img-imagem {
+    width: 600px;
+}
+
+.item-avatar-paragraph {
+
+    text-wrap: wrap;
+
+}

@@ -1,6 +1,6 @@
 import SubTitle from "../subTitle/SubTitle"
 import "../contatos/contatos.css"
-import Imagem from "../imagem/ImagemButton"
+import ButtonImagem from "../imagem/ImagemButton"
 
 const Contatos = () => {
 
@@ -13,7 +13,7 @@ const Contatos = () => {
             <div id="Contatos">
                 <SubTitle name="Contatos" />
                 <br />
-                <Imagem/>
+                <ButtonImagem/>
             </div>
         </>
     )
