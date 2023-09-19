@@ -3,6 +3,7 @@
     max-width: 1220px;
     width: 1000px;
     justify-content: center;
+    gap: 50px;
 
 }
 
@@ -17,6 +18,8 @@
 
 .item-avatar-img-imagem {
     width: 600px;
+    height: 500px;
+    border-radius: 20px;
 }
 
 .item-avatar-paragraph {
