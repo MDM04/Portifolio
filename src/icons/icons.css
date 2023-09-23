@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    width: 200px;
+    gap: 5px;
+}
+
+.item-icons{
+width: 30px;
+align-items: center;
+display: flex;
+}
+
+.item-button{
+    width: 180px;
+}
