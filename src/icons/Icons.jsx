@@ -7,12 +7,8 @@ const IconsButtons = (props) => {
     } = props
     return (
         <div className='container'>
-            <div className="item-icons">
-                {icon}
-            </div>
-            <div className="item-button">
-                <Button name={name} />
-
+            <div className="item-button">   
+                <Button name={name} >{icon}</Button>
             </div>
         </div>
 

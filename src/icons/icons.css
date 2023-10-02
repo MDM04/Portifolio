@@ -11,5 +11,6 @@ display: flex;
 }
 
 .item-button{
+    display: flex;
     width: 170px;
 }
