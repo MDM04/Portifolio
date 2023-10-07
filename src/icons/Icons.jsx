@@ -2,15 +2,15 @@ import "../icons/icons.css"
 import Button from '../components/button/Button'
 
 const IconsButtons = (props) => {
-    let {
-        icon, name
+    let { icon,  name, onClick     
     } = props
+
+
+
     return (
-        <div className='container'>
-            <div className="item-button">   
-                <Button name={name} >{icon}</Button>
-            </div>
-        </div>
+        
+                <Button name={name} onClick={onClick} icon={icon}></Button>
+        
 
     )
 }

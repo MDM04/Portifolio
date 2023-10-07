@@ -13,7 +13,7 @@ return (
 <br />
 <br />
     </div>
-        <div className="container-conhecimentos">
+        <div id="Conhecimentos" className="container-conhecimentos">
 
             <div className="container-Js">
             <SubTitle name="Java Script" />

@@ -3,15 +3,16 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border-bottom: 100px solid #131312;
     border-top: 100px solid #131312;
     padding-right: 100px;
-    gap: 15px;
+    gap: 20px;
 ;
 
 }
 
 .item-nav-1 {
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 50px;
     background-color: #131312;
 }

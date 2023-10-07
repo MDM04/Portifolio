@@ -2,7 +2,7 @@
 import '../button/button.css'
 
 
-const Button = ({ name, onClick }) => {
+const Button = ({ name, onClick, icon}) => {
 
 
     // const {name} = props
@@ -10,8 +10,11 @@ const Button = ({ name, onClick }) => {
 
     return (
         <button onClick={onClick} className="button">
-            {name}                    {/* // toda vez que colocar js dentro de html colocar ENTRE {} */}
+            
+          {icon}    
+           { name}             {/* // toda vez que colocar js dentro de html colocar ENTRE {} */}
         </button>
+
     )
 }
 

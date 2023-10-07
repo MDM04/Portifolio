@@ -5,7 +5,7 @@ const Biografia = () => {
 
 
     return (
-        <>
+        <div id="Biografia">
             <SubTitle name="Biografia" />
             <p className="biografia-paragraph">
             Olá sou o Marcio Muniz Barbosa, um programador experiente com um amplo conhecimento em várias tecnologias de desenvolvimento. Minha jornada no mundo da programação começou com a descoberta do fascinante universo do JavaScript e suas bibliotecas, e desde então venho contribuindo para projetos desafiadores em diversas frentes.
@@ -22,7 +22,7 @@ Estou sempre em busca de aprimoramento e aprendizado contínuo, mantendo-me atua
 
 Estou entusiasmado para enfrentar novos desafios e colaborar em projetos inovadores. Se você está em busca de um programador dedicado, apaixonado e orientado para resultados, estou aqui para ajudar a transformar suas ideias em realidade. Não hesite em entrar em contato para discutir como podemos trabalhar juntos."
             </p>
-        </>
+        </div>
     )
 
 }

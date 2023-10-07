@@ -16,10 +16,10 @@ const NavBar = () => {
             footerElement.scrollIntoView({ behavior: 'smooth' });
         }
     }; let iconsSave = {
-        biografia: <BsBookHalf size={30} color="white" />,
-        conhecimentos: <FaBook size={30} color="white" />,
-        contatos: <BiSolidContact size={30} color="white" />,
-        projetos: <FaProjectDiagram size={30} color="white"/>
+        biografia: <BsBookHalf style={{marginRight:'10px'}} size={30} color="white" />,
+        conhecimentos: <FaBook style={{marginRight:'10px'}} size={30} color="white" />,
+        contatos: <BiSolidContact style={{marginRight:'10px'}} size={30} color="white" />,
+        projetos: <FaProjectDiagram style={{marginRight:'10px'}} size={30} color="white"/>
     };
     return (
         <div className="container-nav">
